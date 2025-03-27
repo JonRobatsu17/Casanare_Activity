@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    background-color: #00ffc8;
+    margin: 0;
+  }
+  
+  form {
+    background-color: #fff67e;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  button {
+    background-color: #193da1;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #193da1;
+  }
+  
+  p {
+    text-align: center;
+    color: #000000;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
